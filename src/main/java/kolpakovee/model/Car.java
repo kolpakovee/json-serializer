@@ -1,6 +1,6 @@
 package kolpakovee.model;
 
-import kolpakovee.json.JsonProperty;
+import kolpakovee.annotation.JsonProperty;
 
 /**
  * Класс, написанный для тестирования
