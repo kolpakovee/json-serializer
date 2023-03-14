@@ -14,7 +14,7 @@ public class Serializer {
     /**
      * Класс, который представляет собой объект JSON
      */
-    public static class JsonObject {
+    private static class JsonObject {
         /**
          * Поле, чтобы хранить объекты пользовательских классов
          * Хранит в себе название поля и его значение
@@ -24,14 +24,6 @@ public class Serializer {
          * Поле, чтобы хранить объекты типа String, Number или Boolean
          */
         private Object object = null;
-
-        public Map<String, Object> getMap() {
-            return map;
-        }
-
-        public Object getObject() {
-            return object;
-        }
 
         public JsonObject(Map<String, Object> m) {
             if (m == null) {
