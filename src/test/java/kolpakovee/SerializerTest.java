@@ -1,6 +1,5 @@
-package kolpakovee.serialization;
+package kolpakovee;
 
-import kolpakovee.Serializer;
 import kolpakovee.model.Car;
 import kolpakovee.model.Card;
 import kolpakovee.model.Person;
